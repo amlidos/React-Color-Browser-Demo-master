@@ -1,0 +1,50 @@
+.color-browser {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.sliders {
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+
+.range {
+    display: inline-block !important;
+    width: 50% !important;
+    margin: 20px;
+}
+
+.label {
+    display: inline-block;
+    min-width: 50px;
+}
+
+.color-output {
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.color-output h1 {
+    padding-top: 80px;
+    font-size: 2em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: silver;
+}
